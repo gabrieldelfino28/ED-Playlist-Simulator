@@ -44,6 +44,7 @@ public class Main {
                     }
                     case "3" -> player.executaMusica(L);
                     case "9" -> isRunning = false;
+                    default -> JOptionPane.showMessageDialog(null, "Valor inválido, tente novamente");
                 }
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, e.getMessage());
